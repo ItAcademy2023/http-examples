@@ -4,7 +4,8 @@
   "description": "",
   "main": "fetch.js",
   "scripts": {
-    "start": "http-server"
+    "start": "http-server",
+    "http-maker": "http-server http-maker"
   },
   "keywords": [],
   "author": "",

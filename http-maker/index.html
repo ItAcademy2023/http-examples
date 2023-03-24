@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>http-maker</title>
+    <script src="http-maker.js"></script>
+    <style>
+      pre {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>HTTP Maker</legend>
+      <form id="form">
+        <div>
+          <label for="url">url</label>
+          <input type="text" name="url" id="url" />
+        </div>
+        <div>
+          <label for="method">method</label>
+          <input type="text" name="method" id="method" />
+        </div>
+        <div>
+          <label for="player">player</label>
+          <input type="text" name="player" id="player" />
+        </div>
+        <button type="button" onclick="makeRequest()">submit</button>
+      </form>
+    </fieldset>
+    <pre>
+      <code id="result"></code>
+    </pre>
+  </body>
+</html>
